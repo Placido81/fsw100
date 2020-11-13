@@ -1,0 +1,69 @@
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    resize: none;
+    overflow: none;
+    background-color: black;
+     position: fixed;
+     top: 0;
+     width: 100%;
+
+}
+li {
+    float: left;
+
+
+}
+li a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+margin-right: 60px;;
+text-align: center;
+}
+li a:hover {
+    background-color: lightgray;
+
+}
+.countryside{
+position: fixed;
+bottom: 450px;
+padding-left: 20px;
+padding-top: 40px;
+
+}
+
+
+.lights {
+position: fixed;
+bottom:220px;
+padding-left: 20px;
+}
+.mountains{
+   position: fixed;
+
+   bottom: -40px;
+padding-left:20px ;
+margin-bottom: 15px;
+box-sizing: border-box;
+}
+
+ .allowbreak{
+position: fixed;
+top: 200px;    
+word-wrap: justify;
+text-indent:15em;
+padding-left: 20px;
+max-width: 1000px;
+text-align: fixed;
+resize: horizontal;
+overflow: auto;
+padding-bottom: 10px;
+width: 700px;
+ }
+
+    
+
