@@ -19,11 +19,11 @@ li {
 
 }
 li a {
-    display: inline-block;
+    display: inline;
     padding: 14px 16px;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 margin-right: 50px;
 text-align: center;
 }
@@ -130,4 +130,9 @@ body{
 
 
 }  
-
+time {
+    text-decoration:underline ivory;
+}
+date{
+text-decoration: underline ivory;
+}
