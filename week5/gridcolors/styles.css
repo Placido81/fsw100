@@ -1,0 +1,50 @@
+
+
+*{
+    box-sizing: border-box;
+}
+#red1,
+#blue1,
+#purple1,
+#green1,
+#yellow1,{
+
+    display: grid;
+    float: left;
+    height: 100px;
+    
+}    
+
+#grid-container1{
+    display: grid;
+    grid-gap: 10px;
+    
+    
+}
+
+#red1{
+   border: 45px solid red;
+grid-column: 1/3;
+grid-row: 1/3;
+
+}
+#blue1{
+    border: 45px solid blue;
+grid-column:3/4;
+grid-row:1/3;
+
+}
+#purple1{
+    border: 45px solid purple;
+grid-column: 4/2;
+grid-row: 4/3;
+}
+#green1{
+    border: 45px solid green;
+grid-column:2/1;
+grid-row: 3/3;
+}
+#yellow1{
+    border: 45px solid yellow;
+grid-column: 1/4;
+}
