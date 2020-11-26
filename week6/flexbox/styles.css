@@ -1,0 +1,147 @@
+html,
+body {
+    padding: 0;
+    margin:0;    
+align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-rows: 200px 200px; 
+      grid-gap: 50px;
+      padding: 100px;
+      margin-left: 150px;
+      flex-wrap: wrap;   
+}  
+h1:first-child {
+    color: #778899;
+    background:linear-gradient(90deg, #00c3ff 0%,#ffff1c 100% );
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+    border: 3px double #787676;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+
+#box1:hover {
+    background-color: #FFCCCC;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(90deg, #40e0d0 0%,#ff8c00 50%,#ff0080 100% );
+    opacity: 0.4;
+    background-image: radial-gradient(circle at center center,#58ff00 , #ff00d8), repeating-radial-gradient(circle at center center,#333333 , #333333, 20px, transparent 40px, transparent 20px);
+    background-blend-mode: multiply;
+
+} 
+    
+
+#box1 {
+    border: 3px dotted white;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    margin: 20px;
+    grid-column: 1;
+}
+#box2:hover {
+    transition:  1s ease-in-out;
+    transform: rotate(180deg);
+    background-color: #E5E5F7;
+    opacity: 0.4;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #FFFB89 20px ), repeating-linear-gradient( #444CF755, #197FCD);
+
+
+}
+#box2 {
+    border: 3px dotted white;
+    background-color:red;
+    width: 200px;
+    height:200px;
+    grid-column: 2;
+    margin: 20px;
+}
+#box3:hover{
+    background-color: turquoise;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+#box3 {
+    grid-row: 2/3;
+    border: 3px dotted white;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #ffc107;
+    grid-column: 2;
+    margin: 70px;
+}
+
+#box4:hover {
+    background-color: violet;
+    transition:  1s ease-in-out;
+    transform: rotate(180deg);
+    background: radial-gradient(ellipse at center, rgb(28,110,164) 0%, rgb(195,198,203) 42%, rgb(20,78,117) 100%);
+}
+
+
+    
+
+#box4 {
+    border: 3px dotted white;
+    background-color:dimgray;
+    width: 200px;
+    height:200px;
+    grid-row: 2;
+    margin:20px;
+    
+}
+#box5:hover {
+    transition:  1s ease-in-out;
+    transform: rotate(180deg);
+    background-color: #40FFD2;
+    opacity: 0.4;
+     background-image: radial-gradient( 1px, #000000 1px);
+     background-size: 20px 20px;
+
+
+} 
+
+
+
+#box5 {
+border: 3px dotted white;
+width: 200px;
+height:200px;
+background-color: greenyellow;
+grid-column: 3;
+grid-row: 1;
+margin-top: 20px;
+
+}
+
+#box6:hover{
+ background-color: yellow;
+ opacity: 0.4;
+ background-image:  linear-gradient(30deg, #808080 12%, transparent 12.5%, transparent 87%, #808080 87.5%, #808080), linear-gradient(150deg, #808080 12%, transparent 12.5%, transparent 87%, #808080 87.5%, #808080), linear-gradient(30deg, #808080 12%, transparent 12.5%, transparent 87%, #808080 87.5%, #808080), linear-gradient(150deg, #808080 12%, transparent 12.5%, transparent 87%, #808080 87.5%, #808080), linear-gradient(60deg, #808080 25%, transparent 25.5%, transparent 75%, #808080 75%, #808080), linear-gradient(60deg, #808080 25%, transparent 25.5%, transparent 75%, #808080 75%, #808080);
+background-size: 40px 70px;
+background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+transition:  1s ease-in-out;
+transform: rotate(180deg)
+}
+
+#box6 {
+    border: 3px dotted white;
+    width: 200px;
+    background-color: #5854cf;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 200px;
+}
