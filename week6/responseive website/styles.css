@@ -1,0 +1,224 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+color:#778899;
+ background-color: lightgrey;
+font-size: 70px;
+font-family: cursive;
+text-align: center;
+border: 5px double #778899;
+border-top: 5px double #778899 ;
+border-bottom: 5px double #778899;
+border-right-width: 10px;
+border-left-width: 10px;
+border-top-width: 10px;
+border-bottom-width: 10px;
+margin: 30px;
+margin-left: -5px;
+margin-right: -5px;
+padding: 30px;
+font-family: 'Open Sans Condensed', sans-serif;
+text-decoration-line:  underline;
+}
+body {
+    background-color: #F5F5F5;
+}
+a {
+   display: flex;
+    line-height: 20px; 
+text-decoration-line: none;
+    font-size: 20px;
+word-spacing: 20em;
+justify-content: space-evenly;
+padding: 10px;
+padding-left: 150px;
+margin: 5px;
+list-style-type: none;
+text-align: center;
+flex-direction: row;
+width: 200px;
+margin-left: 40px;
+margin-right: 10px;
+}
+
+li, a {
+   display: flex;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px ;
+    text-decoration-line: none;
+    border: 3px double #778899;
+    
+}
+li, a:hover {
+     position: flex;
+    background-color: darkgrey;
+    color: lightgray;
+   float: left;
+   text-decoration-line: none;
+}
+.grid-container{
+    display: grid;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    
+}
+h2 {
+    text-align: center;
+    position: 50px;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #778899;
+    border: 3px double #778899;
+    background-color: lightgrey;
+    border-radius: 20px;
+    border-width: 10px; 
+}
+#pic1:hover{
+    width: 400px;
+    height:400px;
+}
+#pic1 {
+    grid-column: 1;
+margin-bottom: 170px;
+margin-left: 115px;
+margin-top: 100px;
+border: 13px double #778899;
+background-color: lightsteelblue;
+transition: width 1s, height 3s;
+}
+#pic2:hover {
+    width: 400px;
+    height:400px;
+}
+#pic2 {
+grid-row: 1;
+grid-column: 2;
+border: 13px double #778899;
+background-color: lightsteelblue;
+margin-left: 40px;
+margin-top: 100px;
+transition: width 1s, height 3s;
+}
+
+#pic3:hover {
+    width: 400px;
+    height:400px;
+}
+#pic3 {
+    border: 13px double #778899;
+    background-color: lightsteelblue;
+    margin-left: 115px;
+    margin-bottom: 20px;
+    transition: width 1s, height 3s;
+}
+#pic4:hover {
+    width: 400px;
+    height:400px;
+    
+}
+#pic4 {
+    border: 13px double #778899;
+   background-color:  lightsteelblue;
+    margin-left: 40px;
+    transition: width 1s, height 3s;
+    
+}
+p {
+    
+    text-indent: 10px;
+    line-height: 30px;
+    border: 3px double #778899;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    background-color: #DCDCDC;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:  #778899;
+    text-decoration-line: underline;
+    letter-spacing: 3px; 
+}
+h3:hover {
+      color: mediumturquoise;   
+}
+h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:  #778899;
+    text-decoration-line: underline;
+   letter-spacing: 3px;
+} 
+h4:hover {
+    color: red;
+}
+footer {
+    color: #000080;
+    text-align: center;
+    margin: 100px;
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+footer:hover {
+    color: lightskyblue;
+}
+#submit {
+    color: red;
+    background-color: #1E90FF;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 100px ;
+    letter-spacing: 3px;
+}
+#submit:hover {
+    color: yellow;
+}
+#email:focus {
+    background-color: lightskyblue;
+ letter-spacing: 3px;
+}
+#fname:focus {
+    background-color: dodgerblue;
+    letter-spacing: 3px;
+}
+#lname:focus {
+    background-color: #00BFFF;
+    letter-spacing: 3px;
+}
+
+
+        /* Media Qeuries*/
+          
+        /* Mobile First*/ 
+        @media only screen and (min-width: 600px){ }
+        /* medium Size*/
+        @media only screen and (min-width: 768px) { }
+         /* Large Size*/   
+        @media only screen and (min-width: 992px) { }
+        /* Extra Large */
+        @media only screen and (min-width: 1200px) { }
+
+        
+        
+
