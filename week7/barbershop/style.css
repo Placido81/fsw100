@@ -1,0 +1,471 @@
+
+html,
+body {
+  padding: 0;
+  max-width: 1400px;
+  margin: auto;
+  border: 10px double black;
+  padding: 10px;
+  
+
+}
+body:hover {
+  background-color: #DCDCDC;
+  color: crimson;
+}
+
+h1 {
+   
+    border: 2px solid black;
+    text-align: center; 
+    line-height: 60px;
+    font-size: 60px;
+
+font-family: Syne Mono monospace;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 20px;
+margin-left: 140px;
+padding: 10px;
+border-width: 20px;
+width: 75%;
+}
+h1:hover {
+  color: crimson;
+  background-color: #000080;
+}
+.nav {
+  font-family: Syne Mono monospace;
+    font-size: 25px;
+  text-align: center;
+  width: 700px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  border-radius: 50px;
+  background-color:  black;
+padding-top: 10px;
+padding-bottom: 10px;  
+padding-left: 30px;  
+padding: 10px;  
+margin-left: 250px;
+margin-bottom: 50px;
+margin-top: 40px;
+word-spacing: 
+
+}
+.nav:hover {
+  color: crimson;
+  background-color: #000080;
+}
+
+ 
+a {
+ text-decoration-line: none;
+color: ivory;
+word-spacing: 10px;
+margin-left: 250px;
+text-align: center;
+margin: 10%;
+}
+a:hover {
+  color: crimson;
+  background-color: #000080;
+}
+h2 {
+    font-size: 40px;
+margin-bottom: 10px;
+margin-left:20%;
+border: 2px solid black;
+border-width:10px ;
+border-right-width:100px ;
+border-left-width: 80px;
+width:50%;
+text-align: center;
+letter-spacing: 10px;
+text-decoration-line: underline;
+position: inline-block;
+padding-left: 1%;
+}
+h2:hover {
+  color: crimson;
+  background-color: #000080;
+}
+th {
+  text-decoration: underline;
+    font-size: 25px ;
+padding-top: 10px;
+padding-bottom: 5px;
+
+
+}
+th:hover {
+  color: crimson;
+}
+td {
+    text-align: center;
+font-size: 20px;
+line-height: 18px;
+table-layout: auto;
+width: 20px;
+text-decoration: underline;
+margin-bottom: 20px;
+margin-left: 40px;
+padding-bottom: 5px;
+border: 1px solid black;
+}
+td:hover {
+  color: crimson;
+  background-color: #000080;
+}
+section {
+   position: relative;
+   
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+  
+}
+table {
+  width: 70%;
+  position: relative;
+  left: 17%;
+}
+h3 {
+ font-size: 40px;
+  padding-left: 5px;
+text-align: center;
+font-family: Syne Mono  monospace;
+border: double black;
+border-width: 10px;
+width: 500px;
+margin-left: 340px;
+margin-right: 110px;
+}
+h3:hover {
+  color: #000080;
+  background-color: crimson;
+  transition-duration: 1s;
+  
+}
+#smile {
+
+}
+h5 {
+
+  text-align: center;
+font-size: 40px;
+float: center;
+font-family: Syne Mono  monospace;
+border: 2px dotted black;
+border-radius: 100px;
+background-color: rgb(221, 221, 221);
+border-width: 5px;
+margin-right: 20%;
+margin-left:200px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+h5:hover {
+  color: crimson;
+  background-color: #000080;
+  transition-duration: 2s;
+}
+li {
+list-style-type: none;
+ border-width: 50px; 
+position: relative;
+text-align: center;
+line-height:30px ;    
+left:420px;
+right: 15px;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 20px;
+padding: 12px 20px 12px 40px;
+border: 1px solid black;
+border-left-width: 2px;
+border-right-width: 2px;
+margin-bottom: 12px;
+margin-left: 180px;
+word-spacing:50px ;
+color: whitesmoke;
+background-color: darkgray;
+
+}
+li:hover {
+  color: crimson;
+  background-color: #000080;
+}
+ul { 
+ position: relative;
+right: 450px;
+border-width: 50px;
+width: 300px;
+text-align: center;
+margin-left: 220px;
+
+}
+.chairs {
+margin-left: 60px; 
+  opacity: 1;
+  background: linear-gradient(135deg, #00011355 25%, transparent 25%) -16px 0/ 32px 32px, linear-gradient(225deg, #000113 25%, transparent 25%) -16px 0/ 32px 32px, linear-gradient(315deg, #00011355 25%, transparent 25%) 0px 0/ 32px 32px, linear-gradient(45deg, #000113 25%, white 25%) 0px 0/ 32px 32px;
+  border-width:20px; 
+padding: 40px;
+margin-top: 150px;
+align-items: center;
+}
+
+h4 {
+  font-size: 30px;
+font-family: Syne Mono monospace;
+text-align: center;
+text-decoration-line: underline;
+background-color: rgb(221, 221, 221);
+padding-right: 10px;
+margin-right: 30%;
+margin-left: 3500px;
+border-radius: 10px;
+border-width: 100px;
+padding-left: 40px;
+
+padding: 30px;
+margin-top: 80px;
+
+}
+h4:hover {
+  color: crimson;
+  background-color: #000080;
+  transition-duration: 1s;
+}
+  .info{
+text-align: center;
+margin-left: 250px;
+
+}
+
+
+p { 
+  font-size: 25px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  font-family: Syne Mono monospace;
+  flex-wrap: nowrap;
+text-decoration-line: underline; 
+}
+p:hover {
+  color: #000080;
+  
+  border-right-width: 50px;
+  transition-duration: 1ms;
+}
+.float {
+  float: left;
+  width: 380px;
+  height: 300px;
+  background-color: lightgray;
+  border: 2px double black;
+  padding: 20px;
+  margin-left: 300px;
+  font-size: 22px;
+  text-align: center;
+}
+.float:hover {
+ background-color: lightskyblue;
+ transition: 2s;
+ transition-delay: 5ms;
+}
+.box{
+  display: flow-root;
+  position: relative;
+  left: 50px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+button { 
+font-size: 20px;
+font-family: Syne Mono monospace;
+color: red;
+border: dotted black ;
+border-radius:10px;
+text-align: center;
+align-items: center;
+width: 100px;
+flex-direction: column;
+flex-wrap: wrap;
+position: relative;
+top: 70px;
+right: 120px;
+}
+button:hover {
+  color: #000080;
+  background-color:crimson; 
+}
+input {
+  position: relative;
+  right: 200px;
+  left: 5px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+}
+input:hover {
+  color: crimson;
+  background-color: #000080; 
+}
+
+label:hover {
+  color: crimson;
+  
+}
+.first {
+  text-align: center;
+display: flex;
+flex-direction: row;
+position: relative;
+top: 5px;
+right: 150px;
+font-family: Syne Mono monospace;
+font-size: 22px;
+padding: 10px;
+margin: 10px;
+margin-right: 50px;
+}
+
+#fname:hover {
+  background-color: #000080;
+}
+.second {
+
+text-align: center;
+position: relative;
+right: 390px;
+
+bottom: 20px;
+top: 90px;
+font-family: Syne Mono monospace;
+font-size: 22px;
+padding: 10px;
+margin: 10px;
+}
+#lname:hover {
+  background-color: #000080;
+}
+
+span {
+  font-size: 22px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+   position: relative;
+  right: 300px;
+  top: 120px;
+     
+}
+  
+#peace {
+  padding: 50px;
+  flex-direction: column;
+  flex-flow: nowrap;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  
+  
+}
+footer {
+  font-size: 40px;
+  font-family:  Mono monospace;
+white-space: 10px;
+  text-decoration-line: underline;
+  position: relative;
+  top: 50px;
+  left: 350px;
+  flex-direction: row;  
+}
+footer:hover {
+  color: #000080;
+  transition: 1ms;
+}
+#ri {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-display: flex;
+  flex-basis: auto;
+  
+}
+ 
+
+#icon2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+  align-items: center;
+  left: 280px;
+  bottom: 50px;
+  letter-spacing: 40px;
+  border: 2px solid black;
+  width: 380px;
+  border-radius: 50px;
+  border-left-width: 30px;
+  border-right-width: 30px;
+  padding-left: 130px;
+  margin: 20px;
+  font-size: 30px;
+}
+#icon2:hover {
+  color: #000080;
+  background-color: crimson;
+  transition: 1ms;
+  
+}
+ @media only screen and (min-width:320px) {
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+   table,nav,table,input,.first, .second,{
+   
+   }   
+@media only screen and (min-width:325px){
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+   table,nav,table,input,{
+
+   }                           
+}
+@media only screen and (min-width:425px){
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+   table,nav,table,{
+
+   }                           
+}
+ @media only screen and (max-width:768px) {
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+  table,nav,{
+
+
+}
+ }
+@media only screen and (max-width: 1024px){
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+   table,nav,{
+   }
+}
+@media only screen and (max-width:1440px){
+  .grid-container
+  th, td, footer,
+   h1, h2,h3,h4,h5,h6,
+   table,nav,{
+
+}
+}

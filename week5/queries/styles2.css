@@ -39,7 +39,7 @@ footer {
     color: white;
   }
   @media only screen and (min-width:600px) {
-    .grid-container {
+    #grid-container {
        width: 100%;
     }
     .sidebar1 {
@@ -50,7 +50,7 @@ footer {
     }
 }
 @media only screen and (min-width:1200px) {
-  .grid-container {
+#.grid-container {
      width: 100%;
   }
   .sidebar1 {
