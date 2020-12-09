@@ -1,0 +1,186 @@
+html, body {
+    box-sizing: border-box;
+    border: 5px double black;
+    background-color: lightgray;
+}
+body:hover {
+    background-color: #DCDCDC;
+    color: crimson;
+}
+
+h1 {
+    display: inline;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 50px;
+    margin:5px;
+    position: relative;
+    top: 80px;
+    left: 30%;
+    border: 6px double black;
+    border-radius: 5%;    
+} 
+
+h1:hover {
+    color: crimson;
+    background-color:#000080 ;
+    transition: ease-in-out 2s;
+}
+#sciss {
+ display: flex;
+ flex-flow: row wrap;   
+ position: relative;
+    left: 49%;
+    bottom: 50px;
+    transform: rotate(99deg);
+    margin: 5px;
+    opacity: 90%;
+}
+
+.nav {
+    font-size: 25px;
+    position: relative;
+    left: 35%;
+    top: 20px;
+    border: 6px double black;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+}
+.nav:hover {
+    color: crimson;
+    background-color:#000080 ;
+    transition: ease-in 1s;
+}
+
+a {
+    text-decoration-line: none;
+    padding: 30px;
+    color: whitesmoke;    
+}
+a:hover {
+    color: crimson;
+    transition: ease-in 1s;
+}
+
+
+#bio {
+    display: flex;
+    position: relative;
+    left: 5%;
+    font-size: 21px;
+    word-spacing: 3px;
+    line-height: 20px;
+    text-indent: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    overflow: 60px;
+    background-color: #696969;
+    color: whitesmoke;
+    margin-top: 80px;
+    border: 10px double black;
+    border-right-width: 17px;
+    border-left-width: 17px;   
+}
+#bio:hover {
+    color: crimson;
+    background-color:#000080 ;
+    transition: ease-in 1s;
+}
+
+
+h4 {
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+    top: 15px;
+    text-decoration-line: underline ;
+    border-top:3px solid black ;
+    width: 35%;
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 5px;
+    
+}
+h5 {
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+    
+    text-decoration-line: overline ;
+    border-bottom:3px solid black ;
+    width: 42%;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+}
+.names {
+    border: 8px double black;
+    width: 60%;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    line-height: 5px;
+}
+.names:hover {
+    color: crimson;
+    background-color:#000080 ;
+    transition: ease-in 1s;
+}
+
+#boss {
+    margin-left: 440px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 8px double;
+}
+#boss:hover {
+    
+    background-color: crimson;
+    transition: ease-in 1ms;
+}
+
+
+#icon {
+    position: relative;
+    left: 45%;
+    top: 20px;
+    bottom: 20px;
+}
+#icon:hover {
+    color: crimson;
+    
+    transition: ease-in 1s;
+}
+@media only and  (max-width: 768px){
+   
+   body{
+   footer {
+    span{
+        h1,h6, {
+
+        }
+
+    }
+
+     
+   } 
+   
+
+   }
+   
+
+    }
+}
+@media only screen and(min-width:1300px){
+    html, body, header, section, span, footer,{
+       
+
+    }
+}
