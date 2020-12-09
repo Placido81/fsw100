@@ -158,28 +158,19 @@ h5 {
     
     transition: ease-in 1s;
 }
-@media only and  (max-width: 768px){
-   
-   body, {
-   footer {
-    span{
-        h1,h6, {
-
-        }
-
+@media screen and (min-width:320px){
+    h1, #icon, #boss, h4, h5, body, footer,{
+        width: 100%
     }
-
-     
-   } 
-   
-
-   }
-   
-
+}
+@media only and  (max-width: 1,400px){
+    h1, #icon, #boss, h4, h5, body, footer,{
+        width: 100%   
     }
 }
 @media only screen and(min-width:1300px){
-    html, body, header, section, span, footer,{
+    h1, #icon, #boss, h4, h5, body, footer,{
+        width: 100%{
        
 
     }
