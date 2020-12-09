@@ -307,3 +307,14 @@ h4:hover {
     transition: 1s;
     text-shadow: 1px 1px 2px black;
 }
+@media all  and (min-width: 375px){
+.header h1 #scissr  .grid-container h4 {     
+  width: 100%;
+
+} 
+}
+@media screen and (max-width: 640px){
+    #scissor h1 {
+        width: 100%
+    }
+}
