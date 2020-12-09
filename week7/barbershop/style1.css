@@ -45,7 +45,7 @@ h1:hover {
 padding-top: 10px;
 padding-bottom: 10px;   
 padding: 10px;  
-margin-left: 250px;
+margin-left: 350px;
 margin-right: 100px;
 margin-bottom: 50px;
 margin-top: 40px;
@@ -76,7 +76,7 @@ margin-bottom: 10px;
 margin-left:20%;
 border: 2px solid black;
 border-width:10px ;
-border-right-width:100px ;
+border-right-width:80px ;
 border-left-width: 80px;
 width:50%;
 text-align: center;
@@ -236,11 +236,7 @@ h4:hover {
   background-color: #000080;
   transition-duration: 1s;
 }
-  .info{
-text-align: center;
-margin-left: 250px;
 
-}
 
 
 p { 
@@ -258,14 +254,7 @@ p:hover {
   transition-duration: 1ms;
 }
 
-.box{
-  display: flow-root;
-  position: relative;
-  left: 50px;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-}
+
 button { 
 font-size: 20px;
 font-family: Syne Mono monospace;
@@ -273,14 +262,13 @@ color: red;
 border: dotted black ;
 border-radius:10px;
 text-align: center;
-align-items: center;
 width: 100px;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
 position: relative;
-top: 70px;
-right: 50%;
-left: 20%;
+left: 41%;
+padding-left: 13px;
+
 
 }
 button:hover {
@@ -289,62 +277,19 @@ button:hover {
 }
 input {
   position: relative;
-  right: 70%;
-  left: 100px;
-  align-items: center;
-  text-align: center;
+  left: 35%;
   border-radius: 50px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
 }
 input:hover {
   color: crimson;
   background-color: #000080; 
 }
+  
 
-
-.first {
-  text-align: center;
-display: flex;
-flex-direction: column;
-position: relative;
-top: 5px;
-right: 150px;
-font-family: Syne Mono monospace;
-font-size: 22px;
-padding: 10px;
-margin: 10px;
-margin-right: 50px;
-}
-
-.first:hover {
-  background-color: #000080;
-}
-.second {
-
-text-align: center;
-position: relative;
-right: 40%;
-
-bottom: 20px;
-top: 90px;
-font-family: Syne Mono monospace;
-font-size: 22px;
-padding: 10px;
-margin: 10px;
-}
-.second:hover {
-  background-color: #000080;
-}
-
-span {
-  font-size: 22px;
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-   position: relative;
-  right: 400px;
-  top: 120px;
-     
-}
   
 #peace {
   padding: 50px;
@@ -352,30 +297,23 @@ span {
   flex-flow: nowrap;
   position: relative;
   top: 50px;
-  right: 50px;
+  right: 100px;
   
   
 }
-footer {
-  font-size: 40px;
-  font-family:  Mono monospace;
-white-space: 10px;
-  text-decoration-line: underline;
-  position: relative;
-  top: 50px;
-  left: 350px;
-  flex-direction: row;  
-}
+
 footer:hover {
   color: #000080;
   transition: 1ms;
 }
 #ri {
-  margin-left: 30px;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
   font-display: flex;
   flex-basis: auto;
+  font-size: 30px;
   
 }
  
@@ -406,10 +344,8 @@ footer:hover {
 }
 
 @media all and (max-width:768px){
-  .first {
-
-  .second{
-    width: 100%
+  .first, .second {
+  width: 100%
   }
   
 }

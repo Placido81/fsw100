@@ -2,6 +2,7 @@ html, body {
     box-sizing: border-box;
     border: 5px double black;
     background-color: lightgray;
+    
 }
 body:hover {
     background-color: #DCDCDC;
@@ -159,19 +160,27 @@ h5 {
     transition: ease-in 1s;
 }
 @media screen and (min-width:320px){
-    h1, #icon, #boss, h4, h5, body, footer,{
-        width: 100%
+    h1,  #boss, h4, h5, body, footer {
+        
     }
-}
-@media only and  (max-width: 1,400px){
-    h1, #icon, #boss, h4, h5, body, footer,{
-        width: 100%   
+
+@media all and  (max-width: 1,400px){
+    h1, #boss, h4, h5, body, footer {
+        width:100% 
     }
-}
-@media only screen and(min-width:1300px){
-    h1, #icon, #boss, h4, h5, body, footer,{
-        width: 100%{
+
+@media all and(min-width:320px){
+    h1, #icon, #boss, h4, h5, body, footer {
+        width:100%
        
 
     }
-}
+
+@media screen and (max-width: 968px){
+    #icon, #boss, h4, h5,{
+
+    
+
+    
+    
+    }
