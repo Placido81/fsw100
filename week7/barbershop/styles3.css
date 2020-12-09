@@ -160,7 +160,7 @@ h5 {
 }
 @media only and  (max-width: 768px){
    
-   body{
+   body, {
    footer {
     span{
         h1,h6, {

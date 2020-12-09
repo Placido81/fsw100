@@ -13,8 +13,9 @@ body:hover {
   background-color: #DCDCDC;
   color: crimson;
 }
-
-h1 {
+@media all and (min-width: 1,400px){
+@media all and (max-width: 768px){
+  h1 {
    
     border: 2px solid black;
     text-align: center; 
@@ -405,15 +406,7 @@ footer:hover {
   transition: 1ms;
   
 }
-@media only and  (max-width: 768px){
-   
-  html, body, header, section, span, footer,
-  width:100%  {
-
-   }
 }
-@media only screen and(min-width:1500px){
-   html, body, header, section, span, footer,{
-   }
-  }
+}
+  
       
